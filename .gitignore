@@ -1,0 +1,13 @@
+# .gitignore for python development
+
+.venv
+venv
+dist
+.DS_Store
+
+.ipynb_checkpoints/
+carabao.egg-info/
+__pycache__/
+.pytest_cache
+
+~$*
