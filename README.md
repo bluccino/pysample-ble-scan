@@ -18,17 +18,19 @@ sample running.
 
 ```
    $ git clone https://github.com/bluccino/pysample-ble-scan
-   $ cd pysample-ble-scan   # change to repository's root directory
 ```
 
-## Step 2: Get Going (`dot-go`)
+## Step 2: Get Going
 
 In the repository's root directory (where .git is located) source the
 BASH script `go` (`sourcing` the script means, to enabled the script for
 changing current environment variables)
 
 ```
-   $ . go   # which is the short form for `$ source go` (equivalent)
+   $ cd pysample-ble-scan   # change to repository's root directory
+   $ ls
+   README.md	go		sample
+   $ . go   # `dot-space-go`, the short form for `$ source go` (equivalent)
 ```
 
 Bash script `go` will:
