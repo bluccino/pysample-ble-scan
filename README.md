@@ -1,4 +1,4 @@
-# Python BLE Scan Sample
+# Python BLE Scan Sample (v1.0.0)
 
 Simple Python sample demonstrating BLE scanning based on the Python Bleak
 library. The sample code can be found in sample/scan.py
