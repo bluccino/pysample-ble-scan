@@ -8,7 +8,7 @@ library. The sample code can be found in sample/scan.py
 
 For a quick start you need to work in a BASH shell, which is natural
 in a Linux or MacOS environment. There is good news for Windows 10++ users
-(ttps://learn.microsoft.com/de-de/windows/wsl/install), which has now also
+(https://learn.microsoft.com/de-de/windows/wsl/install), which has now also
 BASH shell support.
 
 In the repository's root directory (where .git is located) source the
