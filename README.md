@@ -15,7 +15,7 @@ In the repository's root directory (where .git is located) source the
 BASH script `go`
 
 ```
-   $ . go   # which is the short form for `$ source go` (equivalentl)
+   $ . go   # which is the short form for `$ source go` (equivalent)
 ```
 
 Bash script `go` will:
