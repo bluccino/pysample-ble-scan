@@ -34,6 +34,7 @@ export REPO=`pwd`
     echo 'python3 -m venv venv'
     printf "\x1b[0m"   # neutral
 
+    deactivate 2>/dev/null       # be sure a current venv is deactivated
     python3 -m venv venv
     source venv/bin/activate     # activate virtual environment
 
