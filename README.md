@@ -20,16 +20,23 @@ sample running.
    $ git clone https://github.com/bluccino/pysample-ble-scan
 ```
 
-## Step 2: Get Going
+## Step 2: Change to the Repository's Root Directory
 
-In the repository's root directory (where .git is located) source the
-BASH script `go` (`sourcing` the script means, to enabled the script for
-changing current environment variables)
-
+The repository's root directory can be identified as the directory
+where `.git` is located.
 ```
    $ cd pysample-ble-scan   # change to repository's root directory
    $ ls
-   README.md	go		sample
+   .		.git		README.md	sample
+   ..		.gitignore	go
+```
+
+## Step 3: Get Going
+
+In the repository's root directory source the BASH script `go` (`sourcing`
+the script means, to enabled the script for a change of current environment variables)
+
+```
    $ . go   # `dot-space-go`, the short form for `$ source go` (equivalent)
 ```
 
@@ -40,7 +47,7 @@ Bash script `go` will:
 * update the Python package installer (`pip`)
 * install Python package `bleak` (a Python BLE library)
 
-## Step 3: Run Sample
+## Step 4: Run Sample
 
 After the ´. go´ command has finished, your virtual Python environment is ready
 for running the BLE scanner sample:
