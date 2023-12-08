@@ -50,4 +50,8 @@ async def main():
 asyncio.run(main())
 ```
 
-The code is based on a tutorial blog about
+# Additional Resources
+
+The code is based on a tutorial blog about utilizing the `Bleak` library:
+`How to Connect to a Bluetooth Device with a MacBook and Python`.
+https://medium.com/@protobioengineering/how-to-connect-to-a-bluetooth-device-with-a-macbook-and-python-7a14ece6a780
