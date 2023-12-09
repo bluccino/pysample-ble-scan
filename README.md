@@ -37,13 +37,14 @@ In the repository's root directory source the BASH script `go` (`sourcing`
 the script means, to enabled the script for a change of current environment variables)
 
 ```
-   $ . go   # `dot-space-go`, the short form for `$ source go` (equivalent)
+   $ . go      # `dot-space-go`, the short form for `$ source go` (equivalent)
+   (venv) $    # prompt `(venv) $` indicates an activated virtual environment 
 ```
 
 Bash script `go` will:
 
 * create a virtual Python environment (`venv` folder)
-* activate the virtual environment
+* activate the virtual environment (BASH prompt changes to `(venv) $`)
 * update the Python package installer (`pip`)
 * install Python package `bleak` (a Python BLE library)
 
@@ -53,7 +54,7 @@ After the ´. go´ command has finished, your virtual Python environment is read
 for running the BLE scanner sample:
 
 ```
-   $ python sample/scan.py
+   (venv) $ python sample/scan.py
 ```
 
 The scanner sample should output lines beginning with Bluetooth addresses of
@@ -87,6 +88,16 @@ asyncio.run(main())
 
 # Additional Resources
 
-The code is based on a tutorial blog about utilizing the `Bleak` library:
-`How to Connect to a Bluetooth Device with a MacBook and Python`.
+## [1] How to Connect to a Bluetooth Device with a MacBook and Python
+
+A helpful blog about jump starting Python BLE access on base of Bleak.
+
 https://medium.com/@protobioengineering/how-to-connect-to-a-bluetooth-device-with-a-macbook-and-python-7a14ece6a780
+
+
+## [2] Reading your phone's battery level over Bluetooth BLE with Python Bleak
+
+Another useful resource demonstrating how to write a Python BLE client for reading
+the heart rate of a BLE heart rate server emulated on a smart phone.
+
+https://getwavecake.com/blog/reading-your-phones-battery-level-over-bluetooth-ble-with-python-bleak/
